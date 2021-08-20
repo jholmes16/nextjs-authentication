@@ -1,4 +1,5 @@
 import NextAuth from "next-auth";
+import { session } from "next-auth/client";
 import Providers from "next-auth/providers";
 import { verifyPassword } from "../../../lib/auth";
 import { connectToDatabase } from "../../../lib/db";
